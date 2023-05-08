@@ -1,0 +1,54 @@
+.d-flex{
+    padding: 10px;
+}
+
+#tipo{
+    padding-top: 15px;
+}
+
+#botoncito{
+    width: 99%;
+    /*padding-left: 48% ;
+    padding-right: 48%;*/
+    margin: 10px;
+    color: #918282;
+    border-color: #918282;
+}
+
+/* cambio de color a #Botoncito cuando le hago hover*/
+#botoncito:hover{
+    background-color: #918282;
+    color: white;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #d6c6c6;
+}
+.card {
+  background-color: #c4afaf;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  display: inline-block;
+  width: 350px;
+  height: 600PX;
+  overflow: hidden;
+  font-family: "Lucida Handwriting";
+}
+.card img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 16px;
+}
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
